@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="simpleapp$sources_2.12"
+		revision="1.0"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20161207174553"/>
+	<dependencies>
+		<module organisation="org.apache.poi" name="poi-ooxml">
+			<revision name="3.15-beta2" status="release" pubdate="20160625222234" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2916" time="0" location="C:\Users\Lukasz\.ivy2\cache\org.apache.poi\poi-ooxml\ivy-3.15-beta2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/poi/poi-ooxml/3.15-beta2/poi-ooxml-3.15-beta2.pom"/>
+				<caller organisation="default" name="simpleapp$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="3.15-beta2" rev-constraint-default="3.15-beta2" rev-constraint-dynamic="3.15-beta2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="poi-ooxml" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="967349" time="0" location="C:\Users\Lukasz\.ivy2\cache\org.apache.poi\poi-ooxml\srcs\poi-ooxml-3.15-beta2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/poi/poi-ooxml/3.15-beta2/poi-ooxml-3.15-beta2-sources.jar"/>
+					</artifact>
+					<artifact name="poi-ooxml" type="jar" ext="jar" status="no" details="" size="1328757" time="0" location="C:\Users\Lukasz\.ivy2\cache\org.apache.poi\poi-ooxml\jars\poi-ooxml-3.15-beta2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/poi/poi-ooxml/3.15-beta2/poi-ooxml-3.15-beta2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.virtuald" name="curvesapi">
+			<revision name="1.04" status="release" pubdate="20160526062706" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/virtuald/curvesapi" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="BSD License" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2847" time="0" location="C:\Users\Lukasz\.ivy2\cache\com.github.virtuald\curvesapi\ivy-1.04.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.pom"/>
+				<caller organisation="default" name="simpleapp$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="1.04" rev-constraint-default="1.04" rev-constraint-dynamic="1.04" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="curvesapi" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="201324" time="0" location="C:\Users\Lukasz\.ivy2\cache\com.github.virtuald\curvesapi\srcs\curvesapi-1.04-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/github/virtuald/curvesapi/1.04/curvesapi-1.04-sources.jar"/>
+					</artifact>
+					<artifact name="curvesapi" type="jar" ext="jar" status="no" details="" size="98365" time="0" location="C:\Users\Lukasz\.ivy2\cache\com.github.virtuald\curvesapi\jars\curvesapi-1.04.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi">
+			<revision name="3.15-beta2" status="release" pubdate="20160625221820" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3095" time="0" location="C:\Users\Lukasz\.ivy2\cache\org.apache.poi\poi\ivy-3.15-beta2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/poi/poi/3.15-beta2/poi-3.15-beta2.pom"/>
+				<caller organisation="default" name="simpleapp$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="3.15-beta2" rev-constraint-default="3.15-beta2" rev-constraint-dynamic="3.15-beta2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="poi" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2303540" time="0" location="C:\Users\Lukasz\.ivy2\cache\org.apache.poi\poi\srcs\poi-3.15-beta2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/poi/poi/3.15-beta2/poi-3.15-beta2-sources.jar"/>
+					</artifact>
+					<artifact name="poi" type="jar" ext="jar" status="no" details="" size="2564075" time="0" location="C:\Users\Lukasz\.ivy2\cache\org.apache.poi\poi\jars\poi-3.15-beta2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/poi/poi/3.15-beta2/poi-3.15-beta2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.10" status="release" pubdate="20141106151535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<metadata-artifact status="no" details="" size="10476" time="0" location="C:\Users\Lukasz\.ivy2\cache\commons-codec\commons-codec\ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
+				<caller organisation="default" name="simpleapp$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="301032" time="0" location="C:\Users\Lukasz\.ivy2\cache\commons-codec\commons-codec\srcs\commons-codec-1.10-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar"/>
+					</artifact>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="284184" time="0" location="C:\Users\Lukasz\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.1" status="release" pubdate="20161205120923" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.1/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\Lukasz\.ivy2\cache\org.scala-lang\scala-library\ivy-2.12.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1.pom"/>
+				<caller organisation="default" name="simpleapp$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.12.1/"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5272325" time="0" location="C:\Users\Lukasz\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="988614" time="0" location="C:\Users\Lukasz\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.12.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
