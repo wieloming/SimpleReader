@@ -1,19 +1,21 @@
 
-import org.apache.poi.ss.usermodel.{WorkbookFactory, DataFormatter}
+import org.apache.poi.ss.usermodel.{Cell, WorkbookFactory, DataFormatter}
 import java.io.File
 import scala.collection.JavaConverters._
 
 object Engine extends App {
-  def read(filename: String)= {
-
+  def read(filename: String) : List[SCell] = {
     val workbook = WorkbookFactory.create(new File(filename))
-    val formatter = new DataFormatter()
-    for {
-      sheet <- workbook.asScala.toList
-      row <- sheet.asScala.toList
+    val activeSheet = workbook.getSheetAt(0)
+    activeSheet.removeRow(activeSheet.getRow(0))
+
+    val cells = for {
+      row <- activeSheet.asScala.toList
       cell <- row.asScala.toList
-    } yield println(formatter.formatCellValue(cell))
+    } yield SCell.fromCell(cell)
+    cells.filter(_.value.nonEmpty)
   }
 
-  read("test1.xlsx")
+  val cells = read("test1.xlsx")
+  val idsRow = cells.filter(_.row == 3)
 }
