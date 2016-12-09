@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="main">
+<head>
+    <meta charset="UTF-8">
+    <title>JSONTree</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+<div ng-controller="MainCtrl">
+    <script type="text/ng-template" id="nodeTree">
+        {{ node.name }}
+        <ul ng-if="node.nodes" ng-show="node.show">
+            <li ng-repeat="node in node.nodes" ng-include="'nodeTree'"
+                ng-click="expand(node); $event.stopPropagation();">
+            </li>
+        </ul>
+    </script>
+    <ul>
+        <li ng-repeat="node in nodes" ng-include="'nodeTree'"
+            ng-click="expand(node); $event.stopPropagation();">
+        </li>
+    </ul>
+</div>
+</body>
+</html>
