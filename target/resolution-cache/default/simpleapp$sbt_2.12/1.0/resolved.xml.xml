@@ -4,7 +4,7 @@
 		module="simpleapp$sbt_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20161207174551"
+		publication="20161209122140"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

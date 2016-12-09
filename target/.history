@@ -1,0 +1,8 @@
+sbt update
+sbt test
+test
+update
+refresh
+run
+q
+exit
