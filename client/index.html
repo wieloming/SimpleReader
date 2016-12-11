@@ -12,13 +12,13 @@
         {{ node.name }}
         <ul ng-if="node.nodes" ng-show="node.show">
             <li ng-repeat="node in node.nodes" ng-include="'nodeTree'"
-                ng-click="expand(node); $event.stopPropagation();">
+                ng-click="toggle(node); $event.stopPropagation();">
             </li>
         </ul>
     </script>
     <ul>
         <li ng-repeat="node in nodes" ng-include="'nodeTree'"
-            ng-click="expand(node); $event.stopPropagation();">
+            ng-click="toggle(node); $event.stopPropagation();">
         </li>
     </ul>
 </div>

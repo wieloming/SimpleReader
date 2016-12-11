@@ -1,3 +1,5 @@
+package models.dto
+
 import play.api.libs.json.Json
 
 case class Node(id: Int, name: String, nodes: List[Node])
